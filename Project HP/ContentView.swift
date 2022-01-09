@@ -7,10 +7,13 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            AnimatedView()
+                .frame(width: 350, height: 350, alignment: .center)
+        }
     }
 }
 
@@ -19,3 +22,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
